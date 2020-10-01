@@ -8,8 +8,10 @@ This is a electron project and back-end express REST API for integration with an
 > npm start
 
 ## Projetc Files (back-end development)
-> index.js ---> file to generate electron screen.
->>server.js ---> file to run express server (REST API)
+* index.js 
+  * file to generate electron screen.
+* server.js
+   * file to run express server (REST API)
 
 ## src folder (front-end development)
 > ### html files
@@ -18,5 +20,7 @@ This is a electron project and back-end express REST API for integration with an
   * login.html
 >---------------------------  
 > ### javascript files
-  * index_page.js (file to index page javascript)
-  * router_pages.js (file to router and render pages on div 'main' in the index.html file)
+  * index_page.js 
+    * (file to index page javascript)
+  * router_pages.js 
+    * (file to router and render pages on div 'main' in the index.html file)
