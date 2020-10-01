@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electron with express server !!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"  crossorigin="anonymous"></script> -->
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-4">
+            <nav class="nav bg-dark flex-column">
+                <a class="nav-link active" href="#" onclick="changePage('home')">Home</a>
+                <a class="nav-link" href="#" onclick="changePage('login')">Login Screen</a>
+                <a class="nav-link" href="#" onclick="openGithub()">Github link</a>
+
+            </nav>
+        </div>
+        <div class="col-8 bg-secondary text-white container-fluid flex-column" id="main">
+            <p>
+                <h2>Index</h2>
+            </p>
+            <button type="button" class="btn btn-primary" onclick="indexReady()">Are You Ready ?</button>
+        </div>
+    </div>
+
+</body>
+<script src="js/index_page.js" crossorigin="anonymous"></script>
+<script src="js/router_pages.js" crossorigin="anonymous"></script>
+
+
+</html>
