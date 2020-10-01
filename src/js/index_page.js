@@ -3,5 +3,5 @@ function indexReady() {
 }
 
 function openGithub() {
-    window.open('https://github.com/JefersonSSouza/')
+    window.open('https://github.com/JefersonSSouza/electron_express_backend')
 }
